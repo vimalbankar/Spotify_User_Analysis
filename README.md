@@ -1,2 +1,44 @@
 # Spotify_User_Analysis
 It's my first PowerBI project "Spotify User Analysis"
+
+# Spotify User Analysis (Churn & Ads) — Power BI + SQL + Excel
+
+#Short description:
+Interactive Power BI dashboard analyzing Spotify user churn, ad exposure, and subscription behavior. Includes cleaned dataset, SQL queries used for analysis, and dashboard screenshots.
+
+#Highlights / Key Metrics (from dashboard)
+- Churned users: 2,071  
+- Avg ads per week: 6.94  
+- Churn rate:25.89%  
+- Active hours: 5,929  
+- Top churn age-group:36–50
+
+# Project Structure
+- `images/` — dashboard screenshots
+- `data/spotify_cleaned.xlsx` — cleaned dataset (anonymized)
+- `sql/queries.sql` — SQL queries used for analysis
+- `report/` — Power BI `.pbix` file (optional)
+
+#How to reproduce
+1. Open `data/spotify_cleaned.xlsx` to inspect the cleaned data.
+2. Run queries in `sql/queries.sql` (adjust connection details).
+3. Open `report/Spotify_report.pbix` in Power BI Desktop to view dashboards.
+
+#Insights & Actionable Recommendations
+1. High churn (25.9%) — target retention campaigns for high-risk cohorts (36–50).  
+2. Ad frequency correlated with churn — test reduced ad exposure or personalized ad capping for premium prospects.  
+3. Similar skip rates across genders — focus personalization by behavior/age rather than gender.  
+4. Next steps: predictive churn model (logistic regression), cohort LTV, A/B test ad frequency.
+
+#Tools & Stack
+- Power BI Desktop (visualization)
+- SQL (ETL / aggregation)
+- Excel (data cleaning)
+
+
+-License
+This project is licensed under the MIT License — see `LICENSE`.
+
+- Contact
+vimal — [vimalbankar702@gmail.com.com] — github.com/bankar
+
